@@ -1,3 +1,11 @@
+#Query → Read data (similar to HTTP GET) -> @QueryMapping
+#Mutation → Create/Update/Delete (similar to POST/PUT/DELETE) -> @MutationMapping
+#Subscription → Real-time updates (similar to WebSocket events) -> @SubscriptionMapping
+
+#! mean non nullable. IDs purpose is to uniquely identify an object.
+#Int, Float, String, Boolean, ID are the built in scalar types available. But we can also build custom scalars like
+#scalar Date, scalar DateTime, scalar UUID etc using custom scalar implementation
+
 type Query{
     books: [Book]
     bookById(id:Int): Book

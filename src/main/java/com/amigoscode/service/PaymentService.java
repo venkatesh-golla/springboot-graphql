@@ -1,10 +1,9 @@
 package com.amigoscode.service;
 
 import com.amigoscode.model.Payment;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import org.springframework.stereotype.Service;
 
 @Service
 public class PaymentService {
