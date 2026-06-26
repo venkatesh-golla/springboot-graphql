@@ -1,11 +1,9 @@
 package com.amigoscode.service;
 
 import com.amigoscode.model.Order;
-import org.slf4j.Logger;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import org.springframework.stereotype.Service;
 
 @Service
 public class OrderService {

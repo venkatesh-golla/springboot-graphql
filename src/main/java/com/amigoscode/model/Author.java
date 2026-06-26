@@ -1,13 +1,3 @@
 package com.amigoscode.model;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
-
-public record Author(Integer id, String name) {
-  public static List<Author> authors = Arrays.asList(new Author(1, "Venky"), new Author(2, "Test"));
-
-  public static Optional<Author> getAuthorById(Integer id) {
-    return authors.stream().filter(a -> a.id.equals(id)).findFirst();
-  }
-}
+public record Author(Integer id, String name) {}
