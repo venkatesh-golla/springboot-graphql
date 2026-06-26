@@ -1,4 +1,4 @@
-package com.amigoscode;
+package com.amigoscode.model;
 
 import java.util.Arrays;
 import java.util.List;
